@@ -1,8 +1,8 @@
-#zuul.ignored-services: "*"
-#zuul.prefix:  /api
-#zuul.routes.organizationservice: /organization/**
-#zuul.routes.assetsservice: /assets/**
-#zuul.routes.authenticationservice: /auth/**
+zuul.ignored-services: "*"
+zuul.prefix:  /api
+zuul.routes.organizationservice: /organization/**
+zuul.routes.assetsservice: /assets/**
+zuul.routes.authenticationservice: /auth/**
 #zuul.routes.assetstatic.path: /assetstatic/**
 #zuul.routes.assetstatic.url:  http://assetservice-static:8081
 #zuul.routes.assetstatic.serviceId: assetstatic
@@ -13,4 +13,4 @@ zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 #hystrix.command.assetsservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #assetsservice.ribbon.ReadTimeout: 2
-signing.key: "345345fsdfsf5345"
+signing.key: "119345etk978119"
