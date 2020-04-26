@@ -10,7 +10,7 @@ zuul.routes.authenticationservice: /auth/**
 #ribbon.eureka.enabled: false
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 30000
 #hystrix.command.assetsservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #assetsservice.ribbon.ReadTimeout: 2
 signing.key: "119345etk978119"
